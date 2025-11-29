@@ -1,6 +1,3 @@
-إليك النسخة المُحدثة من ملف README.md لمشروع **TO-DO List Application** مع إضافة زر Live Demo بشكل أنيق وواضح:
-
-```markdown
 # TO-DO List Application
 
 The TO-DO List Application is a simple yet powerful web-based task manager built using modern Front-End technologies. It allows users to create, track, and manage their daily tasks with an intuitive interface, local storage for persistence, and interactive features like adding, editing, deleting, and marking tasks as complete. This project is ideal for personal productivity and serves as a great example of vanilla JavaScript in action.
