@@ -82,7 +82,8 @@ header .image {
     font-weight: bold;
     opacity: 0.5;
     cursor: pointer;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
+    /* fixed: added 's' unit */
 }
 
 .tabs .tab:hover,
@@ -217,4 +218,112 @@ form input[type="text"]::placeholder {
 
 .task .delete:hover {
     background-color: #c82333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    html {
+        font-size: 9px;
+    }
+
+    .container {
+        width: 95%;
+        padding: 0 1rem;
+    }
+
+    header .image img {
+        width: 60%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .tabs {
+        flex-wrap: wrap;
+        gap: 0.2rem;
+        font-size: 1.5rem;
+    }
+
+    .tabs .tab {
+        padding: 0.8rem 1rem;
+        flex: 0 0 50%;
+        opacity: 0.9;
+    }
+
+    form {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+    }
+
+    form input[type="text"] {
+        width: 100%;
+        padding: 1.3rem;
+        border-radius: 1rem;
+    }
+
+    form input[type="submit"] {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .tasks {
+        width: 95%;
+        padding: 1rem;
+        min-height: auto;
+    }
+
+    .task {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.6rem;
+    }
+
+    .task .content {
+        width: 100%;
+        gap: 0.8rem;
+    }
+
+    .task .delete {
+        padding: 0.6rem 1.2rem;
+        align-self: flex-end;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 8.5px;
+    }
+
+    .tabs .tab {
+        flex: 0 0 100%;
+        text-align: left;
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+
+    header .image img {
+        width: 80%;
+    }
+
+    form input[type="text"] {
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+
+    form input[type="submit"] {
+        font-size: 1.6rem;
+        padding: 0.9rem;
+    }
+
+    .task p {
+        font-size: 1.4rem;
+    }
+
+    .task .content input[type="checkbox"] {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
 }
