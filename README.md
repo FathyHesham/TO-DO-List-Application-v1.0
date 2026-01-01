@@ -9,10 +9,10 @@ A clean and lightweight **To-Do List web application** built using **Vanilla Jav
 ## 🚀 Live Demo & Repository
 
 - 🔗 **Live Demo:**  
-  <https://fathyhesham.github.io/TO-DO-List-Application/>
+  <https://fathyhesham.github.io/TO-DO-List-Application-v1.0/>
 
 - 📂 **GitHub Repository:**  
-  <https://github.com/FathyHesham/TO-DO-List-Application>
+  <https://github.com/FathyHesham/TO-DO-List-Application-v1.0>
 
 ---
 
